@@ -1,1 +1,3 @@
-console.log("Hello from src/index.js!");
+import { initMarkdownIt } from './plugins/init_markdown_it';
+
+initMarkdownIt();
